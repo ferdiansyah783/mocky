@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en" id="back">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Josefin+Slab:ital,wght@0,500;1,300&family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Cabin:ital@1&family=Josefin+Slab:ital,wght@0,500;1,300&family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Cabin:ital@1&family=Josefin+Slab:ital,wght@0,500;1,300&family=Libre+Franklin:wght@300&family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-sm-8">
+                <nav class="navbar navbar-expand-lg navbar-light border border-1">
+                    <div class="container-fluid">
+                      <a class="judul navbar-brand" href="#">
+                        IBM
+                      </a>
+                      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button> -->
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Products & Solutions
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Services & Consulting
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Learn & Support
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Explore more
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-2">
+                <nav class="navbar navbar-light border border-1">
+                    <div class="container-fluid">
+                      <input type="search" class="navbar-brand" style="width: 105px;border: none;" placeholder="Search">
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-2">
+                <nav class="navbar navbar-light border border-1">
+                    <div class="container-fluid">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person p-0" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg>
+                            
+                        <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-sm-12">
+                <div class="banner text-white">
+                    <div class="container-fluid">
+                        <h1 class="mb-0">Kubernetes Openshift World</h1>
+                        <h1>Tour</h1>
+                        <p>Learn how to build, run, and manage applications with Red Hat OpenShift</p>
+                        <p>on IBM Cloud in our Kubernetes training sessions.Build smart on</p>
+                        <p style="margin-bottom: 18px;">Kubernetes</p>
+                        <a href="#" class="tap">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right text-white" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                            <span>Buils Smart on Kubernetes!</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inside IBM -->
+    <section class="inside" id="inside">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Inside IBM</h2>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-sm-3 mb-4">
+                    <a href="" class="img-1">
+                        <i class="text-secondary">Blockchain Ecosystem Report</i>
+                        <img src="img/1.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
+                        <p class="pb-1">Highlights impactful developments and trends in Singapore’s blockchain ecosystem over the last one year</p>
+                        <a href="" class="link">Where will Blockchain Take us in 2021 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+                <div class="col-sm-3 mb-4">
+                    <a href="" class="img-1">
+                        <i class="text-secondary">IBM Cloud Certifications</i>
+                        <img src="img/2.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
+                        <p class="pb-4">IBM Cloud certifications, learning paths and training</p>
+                        <a href="" class="link">Certify Today 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+                <div class="col-sm-3 mb-4">
+                    <a href="" class="img-1">
+                        <i class="text-secondary">IBM Cloud Youtube Channel</i>
+                        <img src="img/3.png" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
+                        <p class="pb-1">In this lightboard video, learn about REST APIs and the benefits a company can gain when developing apps using REST APIs</p>
+                        <a href="" class="link">Learn with our Developer Advocates!
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+                <div class="col-sm-3 mb-4">
+                    <a href="" class="img-1">
+                        <i class="text-secondary">IBM Cloud Labs</i>
+                        <img src="img/4.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
+                        <p class="pb-1">Learn how to deploy and manage applications on IBM Cloud Kubernetes Service</p>
+                        <a href="" class="link">Hands-on Labs 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore -->
+    <section class="explore" id="explore">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Explore product trials and offers</h2>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-12">
+                    <a href="#" class="link-explore">View more offers
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-sm-3 mb-4">
+                    <a href="" class="img-1">
+                        <i class="text-secondary">IBM Watson</i>
+                        <img src="img/explore-1.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
+                        <p class="pb-3">Access the Full suite of developer services for IBM Watson</p>
+                        <a href="" class="link">Explore all Services 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+                <div class="col-sm-3 mb-4">
+                    <a href="" class="img-1">
+                        <i class="text-secondary">IBM Cloud Platfrom</i>
+                        <img src="img/explore-2.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
+                        <p class="pb-5">Build for Free with Lite on IBM Cloudg</p>
+                        <a href="" class="link">Sign up now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+                <div class="col-sm-3 mb-4">
+                    <a href="" class="img-1">
+                        <i class="text-secondary">Getting started with Containers</i>
+                        <img src="img/explore-3.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
+                        <p class="pb-5">Be part of the container revolution</p>
+                        <a href="" class="link">Read now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+                <div class="col-sm-3 mb-4">
+                    <a href="" class="img-1">
+                        <i class="text-secondary">What's new in 2021?</i>
+                        <img src="img/explore-4.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
+                        <p class="pb-5">6 developer trends to watch in 2021</p>
+                        <a href="" class="link">What's new in 2021?
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- find product and services -->
+    <section class="find" id="find">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Find products and services</h2>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-sm-12">
+                    <div class="find-input input-group mb-3">
+                        <input type="text" class="form-control border-dark border-2 border-end-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn border-dark border-2 border-start-0 bg-white" type="button" id="button-addon2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </button>
+                        <a href="#">See more products
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main">
+                    
+                <div class="row mt-5">
+                    <div class="col-sm-4">
+                        <p class="find-sub mb-4"><b>Technologies</b></p>
+                        <p class="find-link mb-3"><a href="#">Analytics
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Cloud computing 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Mobile technology
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                    </div>
+    
+                    <div class="col-sm-4">
+                        <p class="find-sub mb-5"><b></b></p>
+                        <p class="find-link mb-4"><a href="#">Artificial Intelligence
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">IT Infastructure
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Security
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="find-sub mb-5"><b></b></p>
+                        <p class="find-link mb-4"><a href="#">Blockchain   
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">IT Mangement
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Software Development
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                    </div>
+                </div> 
+                
+                <div class="row mt-5">
+                    <div class="col-sm-4">
+                        <p class="find-sub mb-4"><b>Business needs</b></p>
+                        <p class="find-link mb-3"><a href="#">Business operations
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Content management 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Human resources
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                    </div>
+    
+                    <div class="col-sm-4">
+                        <p class="find-sub mb-5"><b></b></p>
+                        <p class="find-link mb-4"><a href="#">Collaboration
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Customer Service and CRM
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Marketing and Sales
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="find-sub mb-5"><b></b></p>
+                        <p class="find-link mb-4"><a href="#">Commerce
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Finance
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                        <p class="find-link mb-3"><a href="#">Supplay chain Management
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- sidebar -->
+
+            <div class="sidebar">
+
+                <div class="row mt-5">
+                    <div class="col-sm-12">
+                        <a href="" class="sidebar-content">
+                            <p class="find-sub mb-4 text-secondary"><i>Banking Ecosystem</i></p>
+                            <img src="img/sidebar.jpg" width="100%" alt="sidebar">
+                            <p class="sub mt-4 mb-4">Impact of platform economy to drive true digital transformation & practical steps to guide banks.</p>
+                            <a href="#" class="text-decoration-none">Register to Watch the video
+                                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- build smart -->
+    <section class="build" id="build">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5 class="d-inline-block">Build Smart - Build Secure</h5>
+                    <span>
+                        <a href="" class="text-decoration-none fs-5">Explore now
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <b>Discover</b>
+                    <p style="margin-top: 20px;"><a href="">Products</a></p>
+                    <p><a href="">Trials and Demos</a></p>
+                    <p><a href="">IBM Knowledge Center</a></p>
+                    <p><a href="">Redbooks</a></p>
+                    <p><a href="">IBM Training and Skills</a></p>
+                    <p><a href="">Industries (US)</a></p>
+                    <p><a href="">Case studies (US)</a></p>
+                    <p><a href="">Inside IBM</a></p>
+                    <p><a href="">Learning Lab</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <b>Information for....</b>
+                    <p style="margin-top: 20px;"><a href="">Developer</a></p>
+                    <p><a href="">Business Partners</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <b>Connect with us</b>
+                    <p style="margin-top: 20px;"><a href="">Support</a></p>
+                    <p><a href="">Find a Business Partner (US)</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <b>About IBM</b>
+                    <p style="margin-top: 20px;"><a href="">Careers</a></p>
+                    <p><a href="">Latest news</a></p>
+                    <p><a href="">Investor relations (US)</a></p>
+                    <p><a href="">Corporate responsibility (US)</a></p>
+                    <p><a href="">CAbout IBM</a></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+
+                <div class="col-sm-3">
+                    <b>Select a country/region</b>
+                    <div class="dropdown">
+                        <input type="text" role="presentation" class="input dropdown-toggle border border-1 border-dark p-1 mt-3" placeholder="masukan inputan" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-sm-12">
+                    <hr width="100%">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: -20px;margin-bottom: -10px;">
+                <div class="col-sm-12">
+                    <div class="list">
+                        <ul>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Privacy</a></li>
+                            <li><a href="">Term of use</a></li>
+                            <li><a href="">Accesbility</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="tap-back btn" aria-label="Basic example" style="position: fixed;right: 25px;bottom: 20px;">
+        <a href="#back">
+            <button type="button" class="btn btn-primary rounded-pill p-2">Let's talk</button>
+        </a>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

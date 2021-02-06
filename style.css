@@ -1,0 +1,217 @@
+.col-sm-8,.col-sm-2,.col-sm-2 {
+    padding: 0;
+}
+
+.row {
+    margin-right: 0;
+}
+
+.judul {
+    font-size: 25px;
+    font-family: 'monoton',sans-serif;
+    /* line-height: 65px; */
+    padding: 0;
+}
+
+.banner {
+    background-image: url(img/wolf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 50px 10px 100px;
+    margin: 0 auto;
+    min-height: 250px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.banner p {
+    margin: 0 0 5px;
+}
+
+.banner h1 {
+    font-size: 2.7em;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.row>* {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tap {
+    width: 250px;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: rgb(55, 75, 255);
+}
+
+.tap:hover {
+    background: blue;
+}
+
+/* inside */
+.inside {
+    padding: 50px 20px 50px;
+    min-height: 600px;
+}
+
+.inside h2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.2em;
+}
+
+.inside .img-1 {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.inside .img-1 p {
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.inside .link {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* explore */
+.explore {
+    min-height: 600px;
+    padding: 60px 20px 40px;
+    background-color: rgba(221, 217, 217, 0.315);
+}
+
+.explore h2 {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.explore .link-explore {
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.explore .img-1 {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.explore .img-1 p {
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.explore .link {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* main */
+.main {
+    width: 70%;
+    display: inline-block;
+}
+
+/* find produk and services */
+.find {
+    min-height: 600px;
+    padding: 60px 20px 100px;
+    background-color: rgba(243, 243, 243, 0.575);
+}
+
+.find h2 {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.find .find-input {
+    width: 60%;
+}
+
+.find-input a {
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+.find .find-sub {
+    font-family: 'Assistant', sans-serif;
+    font-size: 17px;
+}
+
+.find .find-link a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 25%;
+    float: right;
+}
+
+.sidebar .sidebar-content {
+    text-decoration: none;
+}
+
+.sidebar-content .sub {
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    font-family:  serif;
+}
+
+/* build */
+.build {
+    padding: 55px 20px;
+}
+
+.build span {
+    margin-left: 180px;
+}
+
+/* footer */
+footer {
+    min-height: 500px;
+    background-color: rgba(243, 243, 243, 0.575);
+    padding: 40px 25px 0px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+}
+
+footer p {
+    margin-top: -10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .input {
+    width: 100%;
+}
+
+.footer .list {
+    position: absolute;
+    left: 0;
+    
+}
+
+footer .list li {
+    float: left;
+    list-style-type: none;
+    padding: 8px 0 15px 19px;
+    position: relative;
+    left: -45px;
+}
