@@ -1,3 +1,18 @@
+
+@font-face{
+    font-family: 'ibm-sans';
+    src: url('font/ibmplexsans-regular.woff2');
+}
+
+@font-face{
+    font-family: "ibm-icons";
+    src: url('font/icons-ibm-v12.woff');
+}
+
+:root{
+    font-family: "ibm-sans" !important;
+}
+
 .col-sm-8,.col-sm-2,.col-sm-2 {
     padding: 0;
 }
@@ -7,10 +22,22 @@
 }
 
 .judul {
-    font-size: 25px;
-    font-family: 'monoton',sans-serif;
+    /* font-size: 25px; */
+    /* font-family: 'monoton',sans-serif; */
     /* line-height: 65px; */
-    padding: 0;
+    color: white !important;
+    /* padding: 0; */
+    position: relative;
+    margin-right: 2em;
+}
+.judul::after{
+    font-family: "ibm-icons";
+    content: "\f1b7";
+    font-size: 3em;
+    color: black !important;
+    position: absolute;
+    left: 0px;
+    top: -.1em;
 }
 
 .banner {
@@ -61,8 +88,9 @@
 }
 
 .inside h2 {
-    font-family: 'Josefin Slab', serif;
-    font-size: 2.2em;
+    font-size: 1.8em;
+    font-weight: 400;
+    color:#323232;
 }
 
 .inside .img-1 {
@@ -166,9 +194,9 @@
 }
 
 .sidebar-content .sub {
-    font-size: 20px;
+    font-size: 1rem;
     color: rgb(102, 102, 102);
-    font-family:  serif;
+    font-weight: 400;
 }
 
 /* build */
