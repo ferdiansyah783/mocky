@@ -126,49 +126,11 @@
                     <h2>Inside IBM</h2>
                 </div>
             </div>
+            
+            <div id="content-inside" class="row mt-4">
 
-            <div class="row mt-4">
-                <div class="col-sm-3 mb-4">
-                    <a href="#" class="img-1">
-                        <i class="text-secondary">Blockchain Ecosystem Report</i>
-                        <img src="img/1.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
-                        <p class="pb-1">Highlights impactful developments and trends in Singapore’s blockchain ecosystem over the last one year</p>
-                        <a href="#" class="link">Where will Blockchain Take us in 2021 
-                            <i class="bi bi-arrow-right fs-4"></i>
-                        </a>
-                    </a>
-                </div>
-                <div class="col-sm-3 mb-4">
-                    <a href="#" class="img-1">
-                        <i class="text-secondary">IBM Cloud Certifications</i>
-                        <img src="img/2.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
-                        <p class="pb-4">IBM Cloud certifications, learning paths and training</p>
-                        <a href="#" class="link">Certify Today 
-                            <i class="bi bi-arrow-right fs-4"></i>
-                        </a>
-                    </a>
-                </div>
-                <div class="col-sm-3 mb-4">
-                    <a href="#" class="img-1">
-                        <i class="text-secondary">IBM Cloud Youtube Channel</i>
-                        <img src="img/3.png" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
-                        <p class="pb-1">In this lightboard video, learn about REST APIs and the benefits a company can gain when developing apps using REST APIs</p>
-                        <a href="#" class="link">Learn with our Developer Advocates!
-                            <i class="bi bi-arrow-right fs-4"></i>
-                        </a>
-                    </a>
-                </div>
-                <div class="col-sm-3 mb-4">
-                    <a href="#" class="img-1">
-                        <i class="text-secondary">IBM Cloud Labs</i>
-                        <img src="img/4.jpg" class="img-thumbnail mt-3 mb-3" alt="Blockchain Ecosystem Report">
-                        <p class="pb-1">Learn how to deploy and manage applications on IBM Cloud Kubernetes Service</p>
-                        <a href="#" class="link">Hands-on Labs 
-                            <i class="bi bi-arrow-right fs-4"></i>
-                        </a>
-                    </a>
-                </div>
             </div>
+
         </div>
     </section>
 
@@ -477,5 +439,62 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
+
+    <script>
+
+        var content_inside=document.getElementById('content-inside');
+
+        var data_inside={
+            0:{
+                "title":"Blockchain Ecosystem Report",
+                "image":"img/1.jpg",
+                "desc":"Highlights impactful developments and trends in Singapore’s blockchain ecosystem over the last one year",
+                "link":"Where will Blockchain Take us in 2021"
+            },
+             1: {
+                "title": "IBM Cloud Certifications",
+                "image": "img/2.jpg",
+                "desc": "IBM Cloud certifications, learning paths and training",
+                "link": "Certify Today"
+            },
+            
+            2: {
+                "title": "IBM Cloud Youtube Channel",
+                "image": "img/3.png",
+                "desc": "In this lightboard video, learn about REST APIs and the benefits a company can gain when developing apps using REST APIs",
+                "link": "Learn with our Developer Advocates!"
+            },
+            
+            3: {
+                "title": "IBM Cloud Labs",
+                "image": "img/4.jpg",
+                "desc": "Learn how to deploy and manage applications on IBM Cloud Kubernetes Service",
+                "link": "Hands-on Labs "
+            }
+        }
+
+        content="";
+
+        Object.keys(data_inside).forEach(el=>{
+
+            template = `
+                <div class="col-sm-3 mb-4">
+                    <a href="#" class="img-1">
+                        <i class="text-secondary">`+data_inside[el].title+`</i>
+                        <img src="`+ data_inside[el].image +`" class="img-thumbnail mt-3 mb-3" alt="`+ data_inside[el].title +`">
+                        <p class="pb-1">`+ data_inside[el].desc +`</p>
+                        <a href="#" class="link">`+ data_inside[el].link +` 
+                            <i class="bi bi-arrow-right fs-4"></i>
+                        </a>
+                    </a>
+                </div>`;
+            content += template;
+
+        });
+
+
+        content_inside.innerHTML=content;
+
+    </script>
   </body>
 </html>
